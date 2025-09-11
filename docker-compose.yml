@@ -1,5 +1,6 @@
 services:
     itb:
+        # https://github.com/ISAITB/shacl-validator/blob/master/shaclvalidator-common/src/main/resources/application.properties
         image: "isaitb/shacl-validator:latest"
         ports:
             - "8080:8080"
